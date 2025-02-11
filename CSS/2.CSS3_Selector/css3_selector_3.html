@@ -55,20 +55,30 @@
         }
 
         /* 구조 선택자 */
-        /* ":first-child" :  */
+        /* ":first-child" : 선택자에 해당하는 요소 중 첫번째 형제 요소를 선택 */
+        .structural:first-child {
+            background-color: burlywood;
+        }
         
-        /* ":last-child" :  */
+        /* ":last-child" : 선택자에 해당하는 요소 중 마지막 형제 요소를 선택 */
+        .structural:last-child {
+            background-color: cornsilk;
+        }
+
 
 
 
         /* 가상 요소 선택자 */
-        /*   */
+        /* 요소의 특정 부분을 선택할 때 사용 */
 
-        /* "::first-letter" :  */
+        /* "::first-letter" : 컨텐츠의 첫 글자 */
+        .pseudo1::first-letter {
+            font-size: 40px;
+        }
 
-        /* "::first-line" :  */
+        /* "::first-line" : 컨텐츠의 첫 줄 */
         .pseudo1::first-line {
-            color: aquamarine;
+            color: cadetblue;
         }
 
         /* "::after" : 컨텐츠의 뒤 부분 선택 */
