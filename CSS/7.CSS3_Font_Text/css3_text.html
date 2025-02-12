@@ -8,44 +8,87 @@
     <style>
 
         /*
-            line-height 속성 : 
-                - 
+            line-height 속성 : 텍스트 높이를 지정
+                - 컨텐츠의 높이와 텍스트의 높이를 동일하게 하여 텍스트의 중앙 정렬에 사용 할 수 있음
         */
+        .line-height {
+            background-color: rgba(255, 0, 0 , 0.1);
+            line-height: 70px;
+        }
         
-        
+        /*
+            letter-spacing 속성 : 문자 사이의 간격 지정
+        */
+        .letter-spacing {
+            letter-spacing: 6px;
+        }
 
         /*
-            letter-spacing 속성 : 
+            text-align 속성 : 텍스트 및 건텐츠에 대한 수평 정렬
         */
-        
+        .text-align-center {
+            text-align: center;
+        }
 
+        .text-align-right {
+            text-align: right;
+        }
+
+        .text-align-left {
+            text-align: left;
+        }
 
         /*
-            text-align 속성 : 
+            text-decoration 속성 : 텍스트에 overline, line-through, underline 등을 추가할 수 있음
         */
+        .text-decoration-overline {
+            text-decoration: overline;
+        }
+
+        .text-decoration-line-through {
+            text-decoration: line-through;
+        }
+
+        .text-decoration-underline {
+            text-decoration: underline;
+        }
         
-
-
-        /*
-            text-decoration 속성 : 
-        */
-        
-
-
         /*
             white-space 속성 : 
-                - 
-                - 
+                - white space는 띄워쓰기, 들여쓰기, 줄바꿈을 의미
+                - white-space 속성은 white space를 제어
+
                 - value : line break / space, tab / wrapping (자동 줄바꿈)
-                - normal :  /  / 
-                - nowrap :  /  / 
-                - pre :  /  / 
-                - nowrap :  /  / 
-                - nowrap :  /  / 
+                - normal : 무시 / 1번만 적용 / O
+                - nowrap : 무시 / 1번만 적용 / X 
+                - pre : 적용 / 그대로 적용 / X
+                - pre-wrap : 적용 / 그대로 적용 / O
+                - pre-line : 적용 / 1번만 적용 / O 
         */
-        
+        .white-space-normal {
+            white-space: normal;
+            font-size: 20px;
+        }
 
+        .white-space-nowrap {
+            white-space: nowrap;
+            font-size: 24px;
+        }
 
+        .white-space-pre {
+            white-space: pre;
+            font-size: 28px;
+        }
+
+        .white-space-pre-wrap {
+            white-space: pre-wrap;
+            font-size: 32px;
+        }
+
+        .white-space-pre-line {
+            white-space: pre-line;
+            font-size: 36px;
+        }
         /*
             text-overflow 속성 : 
                 - 
