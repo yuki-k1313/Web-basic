@@ -10,9 +10,6 @@ body {
     font-family: 'NEXON Lv2 Gothic', sans-serif, serif;
 }
 
-#wrapper {
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -34,7 +31,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
+    padding-top: 120px;   
 }
 
 .header {
