@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic';
+    src: url('/ui_test/NEXONLv1GothicRegular.ttf') format('truetype');
+}
+
+body {
+    color: #17191D;
+    font-family: 'NEXON Lv2 Gothic', sans-serif, serif;
+}
+
+#wrapper {
+    max-width: 492px;
+    min-height: 77vh;
+    padding: 0 16px 200px;
+    margin: 0 auto;
+}
+
+.header {
+    min-width: 328px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.text-box {
+    padding: 7px 14px;
+    background-color: #17191d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 14px;
+    z-index: 1000;
+}
+
+.header-text {
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo-box {
+    height: 20px;
+}
+
+.logo {
+    height: 100%;
+
+    background-image: url('./nexon-logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 120px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+}
+
+.tab-item {
+    box-sizing: border-box;
+    width: 105px;
+    height: 34px;
+    border-bottom: 1px solid #e5e9eb;
+    color: #9fa1a7;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.active {
+    color: #17191d;
+    border-bottom-color: #17191d;
+    border-bottom-width: 2px;
+}
+
+.tab-item:hover {
+    color: #0077ff;
+    cursor: pointer;
+}
+
+.active:hover {
+    color: #17191d;
+    cursor: default;
+}
+
+.input-container{
+    width: 460px;
+    height: 243px;
+}
+
+.login-sec {
+    padding-top: 30px;
+}
+
+.logintext {
+    color: #737881;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.input-box {
+}
+
+.input-box input {
+}
+
+.button {
+    padding: 20px 0;
+    background-color: #17191d;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0077ff;
+    cursor: pointer;
+}
+
+.guide-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-guide-container {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 68px;
+    border-top: 1px solid #e5e8eb;
+}
+
+.guide1 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #4A4F5A ;
+}
+
+.guide2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #737881;
+}
+
+.guide-text {
+    line-height: 1.67;
+    letter-spacing: -.6px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: #9fa1a7;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-width: 328px;
+    height: 50px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 11px;
+    color: #9fa1a7;
+    font-weight: 700;
+}
